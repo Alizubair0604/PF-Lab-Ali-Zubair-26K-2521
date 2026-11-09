@@ -3,7 +3,7 @@
 void printSensorData(void *ptr, char dataType) {
     if (dataType == 'f' || dataType == 'F') {
         float temp = *(float *)ptr;
-        printf("Sensor Type [Temperature]: %.2f °C\n", temp);
+        printf("Sensor Type [Temperature]: %.2f Â°C\n", temp);
     } 
     else if (dataType == 'i' || dataType == 'I') {
         int motion = *(int *)ptr;
